@@ -1,19 +1,67 @@
+<!-- CSS Stylesheets with Relative Paths -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+
 </head>
-<body>
-    <section id="contact-info">
-        <h2>Contact Info</h2>
-        <ul>
-          <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-          <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-          <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-        </ul>
-      </section>
+
+  <header id="topheader">
+
+    <div id="container">
+      <div id="name">
+        <h1 id="title">Ron Wazny</h1>
+      </div>
+      <div class="info">
+        <a href="index.html" id="about"> About</a>
+      
+        <a href="contact.html" id="contact"> Contact</a>
+    
+        <a href="portfolio.html" id="portfolio"> Portfolio</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <section id="contents">
+
+     <h2>Contact</h2>
+
+     <hr>
+     
+    <section id="contact">
+            <form action=“action_page.php”>
+
+                    <div class=“contactname”><label for=“fname”>Name</label><br>
+                    
+                     <input class="inputbox" type=“text” size=130 id=“fname” name=“firstname” placeholder=“Your_Name“></div>
+  
+                     <div class=“contactemail”><label for=“lname”>Email</label><br>
+                     <input class="inputbox" type=“text” size=130 id=“lname” name=“lastname” placeholder=“Example@gmail.com”></div>
+  
+                     <div class=“contactmessage”><label for=“subject”>Message</label><br>
+                     <textarea class=“inputbox”  rows=10 cols=130 name=“subject” placeholder=“Love_To_Hear_From_You” style=“height:200px”></textarea></div>
+                    
+                     <input class="submit" type=“submit” value=Submit>
+  
+                   </form>
+      
+    </section>
+ 
+  </footer>
+  <address>
+    <footer id="footer" >&copy; Ron Wazny
+      Visit:<a href=http://www.ronwazny.com>   RonWazny.com</a>
+    </address>
+  </footer>
 </body>
+
 </html>

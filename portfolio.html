@@ -1,12 +1,87 @@
+<!-- CSS Stylesheets with Relative Paths -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
+  <link rel="images" type="images" href="assets/images/Hangman_Icon.jpg">
+
 </head>
-<body>
+
+  <header id="topheader">
+
+    <div id="container">
+      <div id="name">
+        <h1 id="title">Ron Wazny</h1>
+      </div>
+      <div class="info">
+        <a href="index.html" id="about"> About</a>
+      
+        <a href="contact.html" id="contact"> Contact</a>
     
+        <a href="portfolio.html" id="portfolio"> Portfolio</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <section id="contents">
+
+     <h2>Portfolio</h2>
+
+     <hr>
+
+    <div class="hangman">
+        <div id="relative">
+      <img src="assets/images/Hangman_Icon.jpg" alt="Hangman Icon" width="200" height="250">
+        <div class="portfolio-hangman">
+           <h3>Hangman</h3>
+        </div>
+    </div>
+
+  <div class="rpg_game">
+    <img src="assets/images/RPG_Icon.jpg" alt="RPG Icon" width="200" height="250">
+      <div class="portfolio-rpg">
+          <h3>RPG Game</h3>
+      </div>
+  </div>
+
+  <div class="trivia_game">
+    <img src="assets/images/Trivia_Icon.jpg" alt="Trivia Icon" width="200" height="250">
+    <div class="portfolio-trivia">
+        <h3>Trivia Game</h3>
+    </div>
+  </div>
+
+  <div class="info_widget">
+    <img src="assets/images/Info_Icon.jpg" alt="Info Icon" width="200" height="250">
+    <div class="portfolio-info">
+        <h3>Info Widget</h3>
+    </div>
+  </div>
+
+  <div class="rock_paper_scissors">
+    <img src="assets/images/RockPaperScissors_Icon.jpg" alt="RPS Icon" width="200" height="250">
+    <div class="portfolio-rps">
+        <h3>Rock Paper Scissors</h3>
+    </div>
+  </div>
+      
+  </section>
+ 
+  </footer>
+  <address>
+    <footer id="footer" >&copy; Ron Wazny
+      Visit:<a href=http://www.ronwazny.com>   RonWazny.com</a>
+    </address>
+  </footer>
 </body>
+
 </html>
