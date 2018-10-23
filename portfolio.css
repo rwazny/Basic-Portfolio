@@ -4,31 +4,56 @@ h3 {
     background-color: #662D91;
     color: white;
     text-align: center;
-
-
+    width: 200px;    
 }
 
-#contents { 
+#contents {  
     background-color: #ffffff;
     border-color: #303030;
-    margin: 100px auto;
+    margin: 0 auto;
     padding: auto;
     width: 960px;
-    padding-bottom: 30px;
+    height: 750px;
+
 }
 
 .hangman { 
     float: left;
-    padding-left: 25px;
+    padding-top: 20px;
+    padding-left: 100px;
     padding-right: 25px;
-    padding-top: 25px;
+    
 }
 
-
 .rpg_game {
+     float: left;
+     padding-top: 20px;
+     padding-left: 50px;
+     padding-right: 25px;
+
+}
+
+.trivia_game {
     float: left;
-    padding-left: 25px;
+    padding-top: 20px; 
+    padding-left: 50px;
     padding-right: 25px;
-    padding-top: 25px;
+    
   
+}
+
+.info_widget {
+    float: left;
+    padding-top: 10px;
+    padding-left: 235px;
+    padding-right: 25px;
+
+    
+}
+
+.rock_paper_scissors {
+    float: left;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 25px;
 }
