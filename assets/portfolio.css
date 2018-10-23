@@ -1,0 +1,21 @@
+
+
+#contents {
+  background-color: #ffffff;
+  border-color: #303030;
+  margin: 100px auto;
+  padding: auto;
+  width: 960px;
+  padding-bottom: 30px;
+}
+
+.hangman{
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+.rpg_game{
+    float: left;
+   
+}
